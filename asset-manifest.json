@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rem-tweet/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rem-tweet/static/js/main.8420ad2b.chunk.js",
-    "main.js.map": "/rem-tweet/static/js/main.8420ad2b.chunk.js.map",
+    "main.js": "/rem-tweet/static/js/main.4db5e243.chunk.js",
+    "main.js.map": "/rem-tweet/static/js/main.4db5e243.chunk.js.map",
     "runtime-main.js": "/rem-tweet/static/js/runtime-main.88011822.js",
     "runtime-main.js.map": "/rem-tweet/static/js/runtime-main.88011822.js.map",
     "static/js/2.2e6cef01.chunk.js": "/rem-tweet/static/js/2.2e6cef01.chunk.js",
     "static/js/2.2e6cef01.chunk.js.map": "/rem-tweet/static/js/2.2e6cef01.chunk.js.map",
     "index.html": "/rem-tweet/index.html",
-    "precache-manifest.fb50b11c0604c0099014951027a56817.js": "/rem-tweet/precache-manifest.fb50b11c0604c0099014951027a56817.js",
+    "precache-manifest.b6856ba2cc9a15a78ae1c78d91525720.js": "/rem-tweet/precache-manifest.b6856ba2cc9a15a78ae1c78d91525720.js",
     "service-worker.js": "/rem-tweet/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/rem-tweet/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.2e6cef01.chunk.js.LICENSE.txt": "/rem-tweet/static/js/2.2e6cef01.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.88011822.js",
     "static/js/2.2e6cef01.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.8420ad2b.chunk.js"
+    "static/js/main.4db5e243.chunk.js"
   ]
 }

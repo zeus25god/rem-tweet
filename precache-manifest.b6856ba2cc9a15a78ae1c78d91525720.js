@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "57a03d4582d6e372c94d34225ffcac3b",
+    "revision": "72119b6a23288c50c82aa8b5afc1f900",
     "url": "/rem-tweet/index.html"
   },
   {
-    "revision": "d69f827966a619c733a3",
+    "revision": "39d388dc44da4ebdc0d2",
     "url": "/rem-tweet/static/css/main.5f361e03.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rem-tweet/static/js/2.2e6cef01.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d69f827966a619c733a3",
-    "url": "/rem-tweet/static/js/main.8420ad2b.chunk.js"
+    "revision": "39d388dc44da4ebdc0d2",
+    "url": "/rem-tweet/static/js/main.4db5e243.chunk.js"
   },
   {
     "revision": "9cd4c4dd13c6b83b778d",
