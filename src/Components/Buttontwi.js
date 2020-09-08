@@ -45,7 +45,7 @@ function Buttontwi() {
         Row >
         <
         Col className = "gutter-row"
-        span = { 18 } >
+        span = { 12 } >
         <
         div style = { style } > < /div> < /
         Col > <
