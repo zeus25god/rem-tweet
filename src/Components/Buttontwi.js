@@ -22,19 +22,21 @@ function Buttontwi() {
         Row >
         <
         Col className = "gutter-row"
-        span = { 18 } >
+        span = { 18 }
+        style = {
+            { background: "#242b42" }
+        } >
         <
         div style = { style } >
         <
         Paragraph editable = {
             {
                 onChange: setLengthLimitedStr,
-
                 autoSize: { maxRows: 5, minRows: 3 },
             }
         }
         style = {
-            { background: 'white', marginTop: '100px', marginLeft: '270px' }
+            { background: 'white', marginTop: '110px', marginLeft: '270px' }
         } > { lengthLimitedStr } <
         /Paragraph>
 
@@ -45,7 +47,7 @@ function Buttontwi() {
         Row >
         <
         Col className = "gutter-row"
-        span = { 12 } >
+        span = { 18 } >
         <
         div style = { style } > < /div> < /
         Col > <
