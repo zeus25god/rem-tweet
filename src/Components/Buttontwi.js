@@ -19,9 +19,7 @@ function Buttontwi() {
         div >
         <
         Divider orientation = "center" > Responsive < /Divider> <
-        Row gutter = {
-            { xs: 8, sm: 16, md: 24, lg: 32 }
-        } >
+        Row >
         <
         Col className = "gutter-row"
         span = { 18 } >
@@ -44,9 +42,7 @@ function Buttontwi() {
         /div> < /
         Col > <
         /Row> <
-        Row gutter = {
-            { xs: 8, sm: 16, md: 24, lg: 32 }
-        } >
+        Row >
         <
         Col className = "gutter-row"
         span = { 18 } >
