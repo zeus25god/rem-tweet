@@ -7,14 +7,18 @@ import { Button } from 'antd';
 import 'antd/dist/antd.css';
 import { Row, Col, Divider } from 'antd';
 
+import { useSelector, useDispatch } from 'react-redux'
+
+import { doTweet } from '../Redux/action';
+
 const { Paragraph } = Typography;
-const style = { background: '#34416e', padding: '8px 0', maxWidth: '1200px' };
+const style = { background: '#34416e', padding: '8px 0' };
 
 function Buttontwi() {
 
-    const [lengthLimitedStr, setLengthLimitedStr] = useState(
-        'This is an editable text with limited length.',
-    );
+
+    const notw = useSelector(state => state.notw)
+    const dispatch = useDispatch()
     return ( <
         div >
         <
@@ -36,17 +40,17 @@ function Buttontwi() {
         <
         div style = { style } >
         <
-        Paragraph editable = {
-            {
-                onChange: setLengthLimitedStr,
-                autoSize: { maxRows: 5, minRows: 3 }
-            }
-        }
+        textarea className = 'txt'
         style = {
-            { background: 'white', marginTop: '110px', marginLeft: '30px', maxWidth: '900px' }
-        } > { lengthLimitedStr } <
-        /Paragraph> <
-        Button type = "primary" >
+            { background: 'white', marginTop: '50px', marginLeft: '30px', width: '700px', maxHeight: '50px' }
+        } > < /textarea> <
+        h3 style = {
+            { color: 'white' }
+        } > No of Tweets - { notw } < /h3> <
+        Button type = "primary"
+        onClick = {
+            () => dispatch(doTweet())
+        } >
         Tweet <
         /Button> < /
         div >
@@ -54,12 +58,13 @@ function Buttontwi() {
         <
         /Col> < /
         Row > <
-        Row style = {
-            { background: "#34416e", marginLeft: '160px', marginTop: '100px', maxWidth: '960px' }
-        } >
+        Row >
         <
         Col className = "gutter-row"
-        span = { 18 } >
+        span = { 18 }
+        style = {
+            { margin: '40px 0px 0px 160px' }
+        } >
         <
         div style = { style } > < /div> < /
         Col > <
