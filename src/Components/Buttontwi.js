@@ -1,75 +1,80 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Buttontwi from './Components/Buttontwi';
+import './App.css';
+import { Provider } from 'react-redux'
+import store from './Redux/store'
 
-import 'antd/dist/antd.css';
-import { Typography } from 'antd';
-import { Button } from 'antd';
-
-import 'antd/dist/antd.css';
-import { Row, Col, Divider } from 'antd';
-
-const { Paragraph } = Typography;
-const style = { background: '#34416e', padding: '8px 0', maxWidth: '1200px' };
-
-function Buttontwi() {
-
-    const [lengthLimitedStr, setLengthLimitedStr] = useState(
-        'This is an editable text with limited length.',
-    );
+function App() {
     return ( <
-        div >
+        Provider store = { store } >
         <
-        Divider orientation = "center" >
-        <
-        h2 style = {
-            { color: 'whitesmoke' }
-        } > Dissapearing Tweets < /h2>
-
-        <
-        /Divider> <
-        Row >
-        <
-        Col className = "gutter-row"
-        span = { 18 }
-        style = {
-            { maxHeight: '200px', marginLeft: '160px' }
+        div style = {
+            { height: '620px', width: '1280px', background: '#252C48' }
         } >
         <
-        div style = { style } >
+        div className = "App" >
         <
-        Paragraph editable = {
-            {
-                onChange: setLengthLimitedStr,
-                autoSize: { maxRows: 5, minRows: 3 }
-            }
-        }
-        style = {
-            { background: 'white', marginTop: '110px', marginLeft: '30px', maxWidth: '900px' }
-        } > { lengthLimitedStr } <
-        /Paragraph> <
-        Button type = "primary" >
-        Tweet <
-        /Button> < /
-        div >
+        Buttontwi / >
+        <
+        /div> < /
+        div > <
+        /Provider>
+    );
+}
 
-        <
-        /Col> < /
-        Row > <
-        Row style = {
-            { background: "#34416e", marginLeft: '160px', marginTop: '100px', maxWidth: '960px' }
-        } >
-        <
-        Col className = "gutter-row"
-        span = { 18 } >
-        <
-        div style = { style } > < /div> < /
-        Col > <
-        /Row>
+export default App;
+const notw = useSelector(state => state.notw)
+const dispatch = useDispatch()
+return ( <
+    div >
+    <
+    Divider orientation = "center" >
+    <
+    h2 style = {
+        { color: 'whitesmoke' } } > Dissapearing Tweets < /h2>
+
+    <
+    /Divider> <
+    Row >
+    <
+    Col className = "gutter-row"
+    span = { 18 }
+    style = {
+        { maxHeight: '200px', marginLeft: '160px' } } >
+    <
+    div style = { style } >
+    <
+    textarea className = 'txt'
+    style = {
+        { background: 'white', marginTop: '50px', marginLeft: '30px', width: '700px', maxHeight: '50px' } } > < /textarea> <
+    h3 style = {
+        { color: 'white' } } > No of Tweets - { notw } < /h3> <
+    Button type = "primary"
+    onClick = {
+        () => dispatch(doTweet()) } >
+    Tweet <
+    /Button> <
+    /div>
+
+    <
+    /Col> <
+    /Row> <
+    Row >
+    <
+    Col className = "gutter-row"
+    span = { 18 }
+    style = {
+        { margin: '40px 0px 0px 160px' } } >
+    <
+    div style = { style } > < /div> <
+    /Col> <
+    /Row>
 
 
 
-        <
-        /div>
-    )
+    <
+    /div>
+)
 }
 
 export default Buttontwi
