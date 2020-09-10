@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/rem-tweet/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rem-tweet/static/js/main.485724e4.chunk.js",
-    "main.js.map": "/rem-tweet/static/js/main.485724e4.chunk.js.map",
+    "main.js": "/rem-tweet/static/js/main.9d5eaaae.chunk.js",
+    "main.js.map": "/rem-tweet/static/js/main.9d5eaaae.chunk.js.map",
     "runtime-main.js": "/rem-tweet/static/js/runtime-main.88011822.js",
     "runtime-main.js.map": "/rem-tweet/static/js/runtime-main.88011822.js.map",
     "static/css/2.6df4c8f8.chunk.css": "/rem-tweet/static/css/2.6df4c8f8.chunk.css",
-    "static/js/2.0bcd2cf8.chunk.js": "/rem-tweet/static/js/2.0bcd2cf8.chunk.js",
-    "static/js/2.0bcd2cf8.chunk.js.map": "/rem-tweet/static/js/2.0bcd2cf8.chunk.js.map",
+    "static/js/2.a1423a3f.chunk.js": "/rem-tweet/static/js/2.a1423a3f.chunk.js",
+    "static/js/2.a1423a3f.chunk.js.map": "/rem-tweet/static/js/2.a1423a3f.chunk.js.map",
     "index.html": "/rem-tweet/index.html",
-    "precache-manifest.9e97577fea8b5bc2b8a219c7cd3a7509.js": "/rem-tweet/precache-manifest.9e97577fea8b5bc2b8a219c7cd3a7509.js",
+    "precache-manifest.26f008b2cd07fddffebb3db0b9ca2015.js": "/rem-tweet/precache-manifest.26f008b2cd07fddffebb3db0b9ca2015.js",
     "service-worker.js": "/rem-tweet/service-worker.js",
     "static/css/2.6df4c8f8.chunk.css.map": "/rem-tweet/static/css/2.6df4c8f8.chunk.css.map",
     "static/css/main.5f361e03.chunk.css.map": "/rem-tweet/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.0bcd2cf8.chunk.js.LICENSE.txt": "/rem-tweet/static/js/2.0bcd2cf8.chunk.js.LICENSE.txt"
+    "static/js/2.a1423a3f.chunk.js.LICENSE.txt": "/rem-tweet/static/js/2.a1423a3f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.88011822.js",
     "static/css/2.6df4c8f8.chunk.css",
-    "static/js/2.0bcd2cf8.chunk.js",
+    "static/js/2.a1423a3f.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.485724e4.chunk.js"
+    "static/js/main.9d5eaaae.chunk.js"
   ]
 }
