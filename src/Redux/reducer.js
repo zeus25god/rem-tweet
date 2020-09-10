@@ -1,7 +1,7 @@
-import { Do_Tweet } from './types'
+import { Do_Tweet, Msg } from './types'
 const initState = {
     notw: 0,
-    twmsg: []
+    msgw: []
 }
 const twet = (state = initState, action) => {
     switch (action.type) {
@@ -10,9 +10,15 @@ const twet = (state = initState, action) => {
                 ...state,
                 notw: state.notw + 1
             }
+        case Msg:
+            return {
+                ...state,
+                msgw: state.msgw + ''
+            }
         default:
             return state
     }
 
 }
+
 export default twet
